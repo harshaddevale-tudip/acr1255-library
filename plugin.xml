@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-acr1255-" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>acr1255</name><js-module name="acr1255" src="www/acr1255.js"><clobbers target="cordova.plugins.acr1255" /></js-module>
+    <platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="acr1255"><param name="android-package" value="cordova-plugin-acr1255-.acr1255" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/acr1255.java" target-dir="src/cordova-plugin-acr1255-/acr1255" />
+    <source-file src="src/android/acr1255.jar" target-dir="src/cordova-plugin-acr1255-/acr1255" />
+</platform></plugin>
